@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import ReviewModel from '../models/review'
 import { Container, Row, Col } from "react-bootstrap"
 import Card from '../components/Card'
+// import RegisterModal from '../components/RegisterModal';
 
 
 class Home extends Component {
   state = {
-    reviews: []
+    reviews: [],
+    // show: true
   }
 
   componentDidMount() {
@@ -19,6 +21,17 @@ class Home extends Component {
     })
   }
 
+  // showModal = e => {
+  //   console.log('close modal')
+  //   this.setState({
+  //       show: false
+  //   });
+  // };
+
+  // onClose = e => {
+  //     this.props.show = false;
+  // };
+
   render() {
     let reviewList = this.state.reviews.map((review, index) => {
       return (
@@ -30,6 +43,12 @@ class Home extends Component {
 
     return (
       <container>
+
+        {/* <RegisterModal 
+          show={ this.state.show } 
+          onClose={ this.showModal }
+        /> */}
+
         <div className="logo">
           <h1>Netflix</h1>
           <h3>----- TV Recaps -----</h3>
