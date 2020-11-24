@@ -7,8 +7,8 @@ const Card = (props) => {
       <img src={ props.coverArtUrl } alt="Netflix image"/>
       <h3>{ props.title }</h3>
       <h5>By: { props.publisher }</h5>
-      <p>{ props.content }</p>
-      <button>See More</button>
+      <p>{ props.content } <u><i>read more</i></u></p>
+      {/* <button className="seeMore">See More</button> */}
     </div>
   )
 }
