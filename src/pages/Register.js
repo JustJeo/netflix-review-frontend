@@ -28,7 +28,8 @@ const Register = props => {
         .then(data => {
           console.log('Successful register', data)
           // redirect to /login
-          props.history.push('/login')
+          props.history.push('/loginregister')
+          // alert('You are registered!')
         })
     }
   }
