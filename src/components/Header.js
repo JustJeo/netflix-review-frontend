@@ -5,9 +5,10 @@ import './Header.scss'
 const Header = (props) => {
   return (
     <header>
-      <div className="logo">
-        <Link to={'/'}>Home!</Link>
+      <div className="home">
+        <Link to={'/'}>Home</Link>
       </div>
+
       <div className="links">
         <ul>
           { props.currentUser ? 

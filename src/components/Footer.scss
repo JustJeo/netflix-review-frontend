@@ -15,13 +15,28 @@ li {
   list-style-type: none;
 }
 
+h4 {
+  margin: 0 auto;
+}
+
 .companyList, .categoriesList, .email {
   display: inline-block;
   margin: 25px;
   text-align: left;
 }
 
+input {
+  width: 70%;
+  font-size: 100%;
+}
+
 button {
   color: white;
   background-color: red;
+  font-family: "Bebas Neue";
+  font-size: 100%;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Bebas Neue";
 }

@@ -1,14 +1,12 @@
 header {
-  background-color: slategrey;
   align-items: center;
-  width: 100%;
   text-align: left;
   padding: 20px 10px;
   display: flex;
   justify-content: space-between;
 
   a {
-    color: #fff;
+    color: black;
     transition: color 0.3s ease;
 
     &:hover {

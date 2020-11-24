@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className = "footer">
       <div className = "companyList">
-        <h4>Company</h4>
+        <p>Company</p>
           <ul>
             <li>About us</li>
             <li>Subscribe</li>
@@ -14,7 +14,7 @@ const Footer = () => {
           </ul>
       </div>
       <div className = "categoriesList">
-        <h4>Categories</h4>
+        <p>Categories</p>
           <ul>
             <li>Romance</li>
             <li>Comedy</li>
@@ -23,12 +23,14 @@ const Footer = () => {
           </ul>
       </div>
       <div className = "email">
-        <h4>Want more? Join our weekly newsletter</h4>
-        <input type="email" placeholder="email address"></input>
-        <button>Go!</button>
+        <p>Want more? Join our weekly newsletter</p>
+          <form className = "emailForm">
+            <input type="email" placeholder="EMAIL ADDRESS"></input>
+            <button>GO!</button>
+          </form>
       </div>
       <div className = "connect">
-        <h4>Connect</h4>
+        <p>Connect</p>
       </div>
     </footer>
   )
