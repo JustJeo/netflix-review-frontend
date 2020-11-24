@@ -5,7 +5,7 @@ body {
   font-family: "Bebas Neue";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 100px;
+  font-size: 1.5em;
 }
 
 code {
@@ -20,7 +20,7 @@ a {
 h1 {
   font-size: 5em;
   margin: 0;
-  color: red;
+  color: #E52113;
 }
 
 h2 {
@@ -32,10 +32,39 @@ h3 {
 }
 
 button {
-  color: white;
-  background-color: red;
+  color: #FFFFFF;
+  background-color: #E52113;
   font-family: "Bebas Neue";
   font-size: 100%;
+  padding: 5px;
+}
+
+.search input, .search button {
+  padding: 20px;
+  font-size: 100%;
+  margin-bottom: 50px;
+}
+
+.strangerThings {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  color: white;
+  opacity: 75%
+}
+
+.strangerThings h2, h3 {
+  margin: 0;
+}
+
+.featured {
+  position: relative;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.featured > img {
+  max-width: 100%;
 }
 
 .MovieCard {
