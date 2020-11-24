@@ -72,3 +72,7 @@ button {
   text-align: left;
   padding: 20px;
 }
+
+h2 > img {
+  width: 200px;
+}

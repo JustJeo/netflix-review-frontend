@@ -23,7 +23,7 @@ class Home extends Component {
     let reviewList = this.state.reviews.map((review, index) => {
       return (
         <div key={index}>
-          <Col xs={12} sm={6} md={4} lg={3}>
+          <Col xs={12} sm={6} md={6} lg={4}>
             <Card {...review} />
           </Col>
         </div>
