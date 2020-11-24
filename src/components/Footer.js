@@ -4,6 +4,8 @@ import './Footer.scss'
 const Footer = () => {
   return (
     <footer className = "footer">
+
+    {/* 2 column "companyList" and "categoriesList" for mobile */}
       <div className = "companyList">
         <p><b>Company</b></p>
           <ul>
