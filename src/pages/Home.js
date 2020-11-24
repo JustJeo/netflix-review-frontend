@@ -11,13 +11,19 @@ const Home = () => {
       <div className="trending">
         <h2>Trending</h2>
         <Card />
+        <Card />
+        <Card />
       </div>
       <div className="lgbt">
         <h2>LGBTQIA+</h2>
         <Card />
+        <Card />
+        <Card />
       </div>
       <div className="voices">
         <h2>Black Voices</h2>
+        <Card />
+        <Card />
         <Card />
       </div>
     </container>
