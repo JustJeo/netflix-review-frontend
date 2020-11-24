@@ -31,9 +31,15 @@ h3 {
   font-size: 2em;
 }
 
+button {
+  color: white;
+  background-color: red;
+  font-family: "Bebas Neue";
+  font-size: 100%;
+}
+
 .MovieCard {
   font-size: 1.5em;
   text-align: left;
   padding: 20px;
-  display: inline-block;
 }
