@@ -6,6 +6,7 @@ body {
   font-family: "Bebas Neue";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 100px;
 }
 
 code {
@@ -21,4 +22,12 @@ h1 {
   font-size: 5em;
   margin: 0;
   color: red;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
 }

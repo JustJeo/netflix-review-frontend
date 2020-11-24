@@ -28,9 +28,8 @@ const Footer = () => {
             <input type="email" placeholder="EMAIL ADDRESS"></input>
             <button>GO!</button>
           </form>
-      </div>
-      <div className = "connect">
         <p>Connect</p>
+        <p>Icon images will go here</p>
       </div>
     </footer>
   )
