@@ -13,7 +13,6 @@ const Header = (props) => {
         <ul>
           { props.currentUser ? 
             <>
-              <li><Link to={'/profile'}>Profile</Link></li>
               <li><a href="/logout" onClick={ props.logout }>Log Out</a></li>
             </>
           :

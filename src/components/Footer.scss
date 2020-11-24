@@ -17,6 +17,11 @@ footer li {
   font-family: sans-serif;
 }
 
+a {
+  color: white;
+  margin: 0;
+}
+
 h4 {
   margin: 0 auto;
 }
@@ -32,10 +37,15 @@ b {
   text-align: left;
 }
 
+.email p {
+  margin-bottom: 5px;
+}
+
 input {
   width: 70%;
   font-size: 100%;
   padding: 5px;
+  margin-bottom: 10px;
 }
 
 .logo form {

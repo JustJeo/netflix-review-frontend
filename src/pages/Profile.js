@@ -1,8 +1,12 @@
 import React from 'react';
+import User from "../components/User"
 
 const Profile = props => {
   return (
-    <h1>Profile of user with ID { props.currentUser }</h1>
+    <div>
+      <h1>Hi there!</h1>
+      <p>You have successfully logged in!</p>
+    </div>
   )
 }
 

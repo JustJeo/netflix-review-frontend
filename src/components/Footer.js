@@ -34,7 +34,10 @@ const Footer = () => {
             <button>GO!</button>
           </form>
         <p><b>Connect</b></p>
-        <p>Icon images will go here</p>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+          </ul>
       </div>
     </footer>
   )
