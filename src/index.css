@@ -90,3 +90,21 @@ button {
 h2 > img {
   width: 200px;
 }
+
+.register, .login {
+  align-items: left;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.register label, .login label{
+  margin-right: 5px;
+}
+
+.register button {
+  margin-bottom: 450px;
+}
+
+.login button {
+  margin-bottom: 600px;
+}
