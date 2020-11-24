@@ -6,6 +6,7 @@ import Register from '../pages/Register'
 import Login from '../pages/Login'
 import Profile from '../pages/Profile'
 import Dashboard from '../pages/Dashboard'
+import LoginRegister from '../pages/LoginRegister'
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   const currentUser = localStorage.getItem('id')
@@ -22,6 +23,14 @@ const Routes = (props) => (
     <Route path='/dashboard' component={ Dashboard } />
     <Route path='/login' render={ (routeComponentProps) => {
       return  <Login 
+                {...routeComponentProps}
+                // more props to come here
+                currentUser={ props.currentUser }
+                storeUser={ props.storeUser }
+              />
+    } } />
+    <Route path='/loginregister' render={ (routeComponentProps) => {
+      return  <LoginRegister 
                 {...routeComponentProps}
                 // more props to come here
                 currentUser={ props.currentUser }
