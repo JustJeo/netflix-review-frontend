@@ -1,38 +1,51 @@
 footer {
   background-color: black;
-  color: white;
+  color: #FFFFFF;
   width: 100%;
-  position: fixed;
   align-items: center;
   bottom: 0;
 }
 
 ul {
   padding: 0;
+  font-size: 1em;
 }
 
-li {
+footer li {
   list-style-type: none;
+  margin: 5px;
+  font-family: sans-serif;
 }
 
 h4 {
   margin: 0 auto;
 }
 
+b {
+  font-size: 1.25em;
+}
+
 .companyList, .categoriesList, .email {
   display: inline-block;
   margin: 25px;
+  margin-right: 10%;
   text-align: left;
 }
 
 input {
   width: 70%;
   font-size: 100%;
+  padding: 5px;
+}
+
+.logo form {
+  margin: auto;
+  width: 50%;
 }
 
 button {
-  color: white;
-  background-color: red;
+  color: #FFFFFF;
+  background-color: #E52113;
   font-family: "Bebas Neue";
   font-size: 100%;
 }
