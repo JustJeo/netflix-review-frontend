@@ -1,0 +1,63 @@
+.masterModal {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+.homeModal {
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    background: url(https://i.imgur.com/5y6Jp8c.png?2);
+    background-position: center;
+    background-size: cover;
+    width: 65%;
+    margin: 0 auto;
+    padding: 30px 45px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 35px;
+    left: 16%;
+    min-height: 80vh;
+    display: grid;
+    z-index: 1;
+}
+
+.modalContents {
+    justify-self: center;
+    align-self: flex-end;
+}
+
+#ageVerify {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.modalBtn {
+    margin: 3px;
+    height: 2em;
+    width: 6em;
+    color: white;
+    font-size: 18px;
+    font-family: garamond;
+    text-shadow: 0 1px 3px black;
+    letter-spacing: 1px;
+    background: goldenrod;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: goldenrod;
+        box-shadow: 0 5px 20px goldenrod;
+        // text-shadow: 0 1px 3px black;
+        opacity: 75%;
+        color: black;
+        transform: scale(1.05);
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.scss'
 
 const Footer = () => {
@@ -10,7 +11,9 @@ const Footer = () => {
             <li>About us</li>
             <li>Subscribe</li>
             <li>Careers</li>
-            <li>Company Login</li>
+            <li>
+              <Link to={`/dashboard`}>Company Login</Link>
+            </li>
           </ul>
       </div>
       <div className = "categoriesList">
