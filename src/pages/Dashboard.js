@@ -40,6 +40,7 @@ class Dashboard extends Component {
         })
         return (
             <div className="dashboard">
+                <div>921 Total Customers</div>
                 <div>{ this.state.users.length } Total Sign-Ups</div>
                 <div>{ this.state.reviews.length } Total Articles</div>
                 { this.state.users ?  

@@ -3,7 +3,10 @@ import User from "../components/User"
 
 const Profile = props => {
   return (
-    <h1>Hi there { props.name }!</h1>
+    <div>
+      <h1>Hi there!</h1>
+      <p>You have successfully logged in!</p>
+    </div>
   )
 }
 
